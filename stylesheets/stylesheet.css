@@ -2,12 +2,33 @@ body {
     background-color: #000;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
+#search-field {
+    margin: 400px 500px 0 500px;
+}
 #user-input {
     background-color: #FFF;
     border-radius: 5px;
-    height: 40px;
-    font-size: 40px;
+}
+
+#search-field button {
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666;
+    padding: 0 8px 0 10px;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.glyphicon-search {
+    font-size: 30px;
+}
+
+.fi-die-four {
+    font-size: 37px;
 }
