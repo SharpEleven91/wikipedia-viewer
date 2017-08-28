@@ -1,11 +1,14 @@
 body {
     background-color: #000;
-    display: flex;
-    justify-content: center;
 }
 
 #search-field {
-    margin: 400px 500px 0 500px;
+    padding-top: 500px;
+    padding-bottom: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 #user-input {
     background-color: #FFF;
@@ -18,8 +21,21 @@ body {
     box-shadow: none;
     border: 0;
     color: #666;
-    padding: 0 8px 0 10px;
+    padding: 0 6px 0 10px;
 }
+
+#content {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+/** buttons **/
 
 button:focus {
     outline: 0;
@@ -30,5 +46,5 @@ button:focus {
 }
 
 .fi-die-four {
-    font-size: 37px;
+    font-size: 30px;
 }
