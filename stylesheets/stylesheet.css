@@ -1,0 +1,13 @@
+body {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#user-input {
+    background-color: #FFF;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 40px;
+}
