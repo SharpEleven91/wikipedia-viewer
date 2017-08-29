@@ -31,8 +31,35 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
+    color: black;
+}
+.results:nth-of-type(1) {
+    margin-top: 25px;
+}
+.results {
+    background-color: grey;
+    width: 50%;
+    margin-bottom: 25px;
 }
 
+.results .title {
+    float: left;
+    padding-left: 40px;
+}
+
+.results .extract {
+    padding: 40px 40px 40px 40px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color:white;
+    text-decoration: none;
+}
 
 
 /** buttons **/
@@ -42,9 +69,9 @@ button:focus {
 }
 
 .glyphicon-search {
-    font-size: 30px;
+    font-size: 32px;
 }
 
 .fi-die-four {
-    font-size: 30px;
+    font-size: 34px;
 }
